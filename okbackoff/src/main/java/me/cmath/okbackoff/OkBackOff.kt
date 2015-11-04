@@ -136,7 +136,7 @@ class OkBackOff(val defaultPolicy: OkBackOff.Policy =
     }
 
     /**
-     * A sane default exponential back off implementation forked from
+     * A default exponential back off implementation forked from
      * Google Java Http Client.
      */
     class DefaultExponentialBackOffPolicy(
